@@ -1,0 +1,11 @@
+QuickSort:
+Sua teoria baseia-se em uma técnica conhecida por divisão e conquista
+muito conhecida por reduzir problemas complexos em problemas menores
+para tentar chegar em uma solução.
+
+o algoritimo consiste nos seguintes passos:
+1- escolher um elemento qualquer da lista, que será chamado pivô;
+2- todos os elementos antes do pivô devem ser menores que ele e todos os elementos
+após o pivô devem ser maiores que ele. Quando esse processo de separação for finalizado
+então o pivô deve estar exatamente no meio da lista;
+3- de forma recursiva os elementos da sublista menor e maior são ordenados.

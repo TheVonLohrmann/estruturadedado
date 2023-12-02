@@ -1,0 +1,29 @@
+Exercícios de Structs em C:
+1-Crie uma struct Aluno com campos para nome, idade e média. Em seguida, 
+crie um array de estruturas Aluno e preencha com alguns dados. Apresente 
+na tela todos os alunos maiores de 18 anos.
+
+2-Desenvolva uma struct Retangulo para representar 
+as coordenadas de dois pontos que formam um retângulo no 
+plano cartesiano. Crie uma função para calcular a área e o perímetro do retângulo.
+
+3-Implemente uma struct Tempo para representar horas, 
+minutos e segundos. Em seguida, crie uma função que receba dois 
+tempos e calcule a diferença entre eles.
+
+4-Crie uma struct Produto que contenha nome, preço e quantidade em estoque. 
+Escreva uma função para adicionar um desconto de 10% no preço de todos os produtos em estoque.
+
+5-Construa uma struct Data para armazenar dia, 
+mês e ano. Crie uma função que valide se uma data é válida ou não.
+
+6-Adicionar na estrutura cadastro_de_Aluno os seguintes dados: Matrícula, E-Mail e Telefone.
+Criar uma estrutura cadastro_do_professor com os seguintes dados:Nome - Texto
+CPF - Numero
+Matrícula - Numero
+Endereço - Texto
+
+7-Conforme orientações na aula, os cursistas deverão realizar a tarefa, conforme as seguintes orientações descritas a seguir.  
+Criar uma estrutura para armazenar o objeto Filme com as seguintes características: 
+Título (Texto), Classificação (Número), Diretor(Texto), Gênero(Texto) e Duração(Texto);
+O aluno deverá criar uma função com passagem de parâmetros e utilizar ponteiros.

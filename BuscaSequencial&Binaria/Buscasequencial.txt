@@ -1,0 +1,12 @@
+Busca Sequencial:
+
+sua teoria baseia-se em dada uma coleção de n elementos,
+prentende-se saber se um determinado elemento (valor) está
+presente nessa coleção.
+
+além de encontrar o valor desejado, é possivel determinar a 
+posição desse elemento (valor) em um conjunto de elementos.
+
+percorrer o vetor desde a primeiraposição até a última. para
+cada posição i, comparamos vetor[i] com valor. se for igual
+dizemos que o valor existe e informamos a sua posição.

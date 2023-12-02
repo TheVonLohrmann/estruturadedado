@@ -1,0 +1,20 @@
+Fila:
+
+Assim como as Pilhas, as Filas têm operações mais restritas do que as
+operações das Listas. Nas Filas, os elementos são adicionados na última
+posição e removidos da primeira posição. Nas Listas, os elementos são
+adicionados e removidos de qualquer posição.
+
+As pessoas são atendidas conforme a posição delas na fila. O próximo a
+ser atendido é o primeiro da fila. Quando o primeiro da fila é chamado
+para ser atendido a fila “anda”, ou seja, o segundo passa a ser o primeiro,
+o terceiro passa a ser o segundo e assim por diante até a última pessoa.
+
+Inserir
+Exemplo: coloca uma pessoa no fim da Fila.
+Remover
+Exemplo: retira uma pessoa que está no começo da Fila.
+Exibir
+Exemplo: Informa se a Fila está vazia .
+
+

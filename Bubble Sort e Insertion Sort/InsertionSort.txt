@@ -1,0 +1,13 @@
+Insertion Sort:
+O Insertion Sort é um algoritmo de ordenação eficiente para um número pequeno de
+elementos. Funciona construindo uma lista ordenada um item de cada vez, movendo
+os elementos não classificados para a lista ordenada e inserindo-os na posição correta.
+
+O algoritmo funciona da seguinte maneira:
+1- Começa com o segundo elemento e compara com os elementos anteriores.
+2- Insere o elemento na posição correta na lista ordenada, deslocando elementos maiores para a direita.
+3- Este processo é repetido até que todos os elementos estejam na posição correta.
+
+O Insertion Sort é eficiente para conjuntos pequenos de dados e em listas 
+parcialmente ordenadas, mas pode ser menos eficiente em grandes conjuntos de 
+dados devido à sua complexidade quadrática.

@@ -1,0 +1,27 @@
+Pilha:
+
+Um determinado produto é composto por diversas peças
+(digamos p1, p2, ..., pn). O processo de montagem deste
+produto é automatico (executado por uma maquina) e exige
+que as peças sejam colocadas em uma ordem especifica 
+(primeiro a p1, depois a p2, depois a p3 e assim por diante).
+As peças são empilhadas na ordem adequada e a maquina de montagem
+vai retirando peça por peça do topo desta pilha para poder 
+montar o produto final.
+
+A mesma maquina que faz a montagem é capz de trocar uma peça
+quebrada de um produto já montado. O que a maquina faz é desmontar o 
+produto até chegar na peça defeituosa, trocá-la e então depois recolocar
+as peças que foram retiradas. isso tambem é feito com o uso de pilha de peças.
+Veja a seguir o algoritmo que a máquina montadora implementa 
+para fazer a manutenção de um produto com defeito.
+
+Exemplo dos passos necessários para implementação do algoritmo:
+
+1- Retirar e empilhar peça por peça do produto até chegar na peça
+defeituosa.
+2- Retirar a peça defeituosa.
+3- Colocar uma peça nova sem defeitos.
+4- Desempilhar e montar peça por peça do topo da pilha até a pilha ficar
+vazia.
+

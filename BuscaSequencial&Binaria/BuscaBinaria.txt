@@ -1,0 +1,75 @@
+Busca Binária:
+
+Sua teoria baseia-se em realiza uma busca com um vetor de 
+elementos já ordenados.
+
+Para fazer a busca precisamos identificar o inicio e fim do 
+vetor e o meio. O índice do meio será sempre um número
+inteiro que neste caso será o índice 4.
+
+   |                                            |
+   V                                            V
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
+| 13 | 14 | 19 | 43 | 47 | 52 | 65 | 82 | 89 | 91 |
+
+| chave |  47  |
+|inicio |   0  |
+|  fim  |   9  |
+| meio  |   4  |(inicio+fim)/2
+
+Agora é fazer a comparação com o elemento do índice 4. O 
+elemento que estou procurando é o elemento da posição meio do vetor.
+
+   |                   |                        |
+   V                   V                        V
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
+| 13 | 14 | 19 | 43 | 47 | 52 | 65 | 82 | 89 | 91 |
+
+| chave |  47  |
+|inicio |   0  |
+|  fim  |   9  |
+| meio  |   4  |(inicio+fim)/2
+
+Percorrer o vetor o indice do elemento que está no vetor, que neste
+caso é o indice 4.
+
+   |                   |                        |
+   V                   V                        V
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
+| 13 | 14 | 19 | 43 | 47 | 52 | 65 | 82 | 89 | 91 |
+
+Comportamento do Método de busca binária:
+
+Outra situação seria procurar o número 82. Com perguntar se
+o número procurando é maior ou menor que o número que se 
+encontra no índice do meio. Que neste caso, 87 é maior que 47
+o que implica que o número a ser buscado encontra-se após o 
+número do indice do meio, o que irá deslocar a chave de inicio
+para a posição 5.
+
+                       |    |                   |
+                       V    V                   V
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
+| 13 | 14 | 19 | 43 | 47 | 52 | 65 | 82 | 89 | 91 |
+
+Agora encontro o meu novo meio e refaça o procedimento.
+da seguinte forma:
+
+O elemento que estou procurando é o elemento do meio. Sim
+o do indice 7. Neste caso o numero 82. Encontrei o elemento.
+No caso de um elemento (número) não existente, vou Percorre
+todo o vetor Utilizando esse método de busca e informar que o 
+número não pertence ao vetor.
+
+Observação: A condição de parada E quando o marcador de inicio
+for maior que o marcador de fim.
+
+                            |         |         |
+                            V         V         V
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
+| 13 | 14 | 19 | 43 | 47 | 52 | 65 | 82 | 89 | 91 |
+
+| chave |  82  |
+|inicio |   5  |
+|  fim  |   9  |
+| meio  |   7  |(inicio+fim)/2

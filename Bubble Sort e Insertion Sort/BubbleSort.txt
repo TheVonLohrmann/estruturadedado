@@ -1,0 +1,27 @@
+Bubble Sort:
+O Bubble Sort é um algoritmo simples de ordenação que percorre repetidamente uma lista, 
+compara elementos adjacentes e os troca se estiverem na ordem errada.
+Ele continua passando pela lista até que nenhum elemento seja trocado, 
+o que indica que a lista está ordenada.
+
+O algoritmo funciona da seguinte maneira:
+
+1- Percorre a lista comparando elementos adjacentes.
+2- Se o elemento atual for maior que o próximo, os elementos são trocados.
+3- Este processo é repetido até que todos os elementos estejam em ordem.
+4- A ordenação pode ser crescente ou decrescente basta trocar a
+ordem de comparação.
+
+É chamado de Bubble Sort porque os elementos maiores "borbulham" 
+para o final da lista gradualmente, como bolhas na água.
+
+como funciona a ordenação do Bubble Sort:
+
+1- Um laço com a quantidade de elementos do vetor será
+executado
+–(for ( j=1; j<=n; j++) ),
+
+2- e dentro deste, outro laço que percorre da primeira à penúltima
+posição.
+–(for (i=0; i<n−1; i++) )
+

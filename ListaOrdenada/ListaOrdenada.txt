@@ -1,0 +1,13 @@
+Listas Odenadas:
+
+Listas ordenadas (ou listas ligadas ordenadas) são estruturas
+de dados em que os elementos são armazenados de forma ordenada
+geralmente em ordem crescente ou decrescente.
+
+Sua teoria baseia-se em estruturas de dados são baseadas em nós
+(nodes) que contem dois principais componentes:
+um valor ( que pode ser qualquer tipo de dado) e um ponteiro ou 
+valor de indice para o proximo nó na lista (ou, no caso de listas 
+duplamente ligadas, tambem um ponteiro um valor de indice para o 
+no anterior).
+
